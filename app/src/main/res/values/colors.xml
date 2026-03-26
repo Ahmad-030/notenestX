@@ -16,6 +16,7 @@
     <color name="btn_view_notes">#E94560</color>
     <color name="btn_favorites">#F5A623</color>
     <color name="btn_history">#533483</color>
+    <color name="btn_secondary">#533483</color>
     <color name="btn_tips">#0F3460</color>
     <color name="btn_about">#1A1A2E</color>
     <color name="btn_exit">#E94560</color>
