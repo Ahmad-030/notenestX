@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NoteNestX</string>
+    <string name="app_tagline">Your Smart Note Keeper</string>
+
+    <!-- Menu -->
+    <string name="btn_new_note">✍️  New Note</string>
+    <string name="btn_view_notes">📋  View Notes</string>
+    <string name="btn_favorites">⭐  Favorites</string>
+    <string name="btn_history">📜  History</string>
+    <string name="btn_tips">💡  Tips</string>
+    <string name="btn_about">ℹ️  About</string>
+    <string name="btn_exit">✖  Exit</string>
+
+    <!-- Add/Edit -->
+    <string name="hint_title">Note Title (optional)</string>
+    <string name="hint_note">Write your note here…</string>
+    <string name="btn_save">Save Note</string>
+    <string name="btn_back">← Back</string>
+    <string name="label_add_note">Add New Note</string>
+    <string name="label_edit_note">Edit Note</string>
+
+    <!-- Notes List -->
+    <string name="title_all_notes">All Notes</string>
+    <string name="empty_notes">No notes yet.\nTap + New Note to get started.</string>
+    <string name="msg_delete_confirm">Long-press to delete a note.</string>
+
+    <!-- Favorites -->
+    <string name="title_favorites">⭐ Favorites</string>
+    <string name="empty_favorites">No favorite notes yet.\nStar a note to add it here.</string>
+
+    <!-- History -->
+    <string name="title_history">📜 Recent History</string>
+    <string name="empty_history">No history yet.</string>
+    <string name="btn_clear_history">Clear History</string>
+    <string name="label_last5">Last 5 visited notes</string>
+
+    <!-- Tips -->
+    <string name="title_tips">💡 Tips</string>
+
+    <!-- About -->
+    <string name="title_about">ℹ️ About</string>
+    <string name="about_desc">NoteNestX is a fast and simple offline note-taking app designed for everyday use.\n\nCreate, edit, and manage your notes easily without any internet connection.\n\nThe app includes powerful features like Favorites and History, allowing you to quickly access important notes and revisit your recent activity.\n\nBuilt with simplicity, speed, and usability in mind.</string>
+    <string name="about_features_title">Features</string>
+    <string name="about_features">• Create and edit notes quickly\n• Mark important notes as favorites\n• Access recently used notes with History\n• Offline storage — no internet needed\n• Clean and minimal UI\n• Lightweight and smooth performance</string>
+
+    <!-- Common -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_delete">Delete this note?</string>
+    <string name="confirm_clear_history">Clear all history?</string>
+    <string name="note_saved">Note saved!</string>
+    <string name="note_deleted">Note deleted.</string>
+    <string name="history_cleared">History cleared.</string>
+    <string name="no_content">Empty note not saved.</string>
+</resources>

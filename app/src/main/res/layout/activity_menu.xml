@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_menu"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="40dp"
+        android:paddingBottom="32dp">
+
+        <!-- App Title Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingBottom="28dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📝"
+                android:textSize="48sp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/app_name"
+                android:textColor="@color/text_title"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.05"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/app_tagline"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp"
+                android:gravity="center" />
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorAccent" />
+        </LinearLayout>
+
+        <!-- Buttons -->
+        <Button
+            android:id="@+id/btnNewNote"
+            style="@style/MenuButton"
+            android:text="@string/btn_new_note"
+            android:background="@drawable/btn_accent" />
+
+        <Button
+            android:id="@+id/btnViewNotes"
+            style="@style/MenuButton"
+            android:text="@string/btn_view_notes"
+            android:background="@drawable/btn_danger" />
+
+        <Button
+            android:id="@+id/btnFavorites"
+            style="@style/MenuButton"
+            android:text="@string/btn_favorites"
+            android:background="@drawable/btn_menu_default" />
+
+        <Button
+            android:id="@+id/btnHistory"
+            style="@style/MenuButton"
+            android:text="@string/btn_history"
+            android:background="@drawable/btn_secondary" />
+
+        <Button
+            android:id="@+id/btnTips"
+            style="@style/MenuButton"
+            android:text="@string/btn_tips"
+            android:background="@drawable/btn_menu_default" />
+
+        <Button
+            android:id="@+id/btnAbout"
+            style="@style/MenuButton"
+            android:text="@string/btn_about"
+            android:background="@drawable/btn_menu_default" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="@color/divider" />
+
+        <Button
+            android:id="@+id/btnExit"
+            style="@style/MenuButton"
+            android:text="@string/btn_exit"
+            android:background="@drawable/btn_danger" />
+
+    </LinearLayout>
+</ScrollView>

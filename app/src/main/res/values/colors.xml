@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Palette -->
+    <color name="colorPrimary">#1A1A2E</color>
+    <color name="colorPrimaryDark">#16213E</color>
+    <color name="colorAccent">#F5A623</color>
+
+    <!-- Backgrounds -->
+    <color name="bg_splash">#1A1A2E</color>
+    <color name="bg_menu">#1A1A2E</color>
+    <color name="bg_screen">#0F3460</color>
+    <color name="bg_card">#16213E</color>
+
+    <!-- Buttons -->
+    <color name="btn_new_note">#F5A623</color>
+    <color name="btn_view_notes">#E94560</color>
+    <color name="btn_favorites">#F5A623</color>
+    <color name="btn_history">#533483</color>
+    <color name="btn_tips">#0F3460</color>
+    <color name="btn_about">#1A1A2E</color>
+    <color name="btn_exit">#E94560</color>
+    <color name="btn_save">#F5A623</color>
+    <color name="btn_clear">#E94560</color>
+    <color name="btn_back">#533483</color>
+    <color name="btn_stroke">#F5A623</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#BBBBBB</color>
+    <color name="text_hint">#777777</color>
+    <color name="text_title">#F5A623</color>
+    <color name="text_on_btn">#FFFFFF</color>
+
+    <!-- Item / List -->
+    <color name="item_bg">#16213E</color>
+    <color name="item_bg_favorite">#1F1040</color>
+    <color name="divider">#2A2A4A</color>
+    <color name="star_active">#F5A623</color>
+    <color name="star_inactive">#555577</color>
+
+    <!-- Misc -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

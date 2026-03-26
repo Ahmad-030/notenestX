@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bg_splash"
+    android:padding="32dp">
+
+    <!-- Icon placeholder using shape -->
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:background="@drawable/splash_icon_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📝"
+            android:textSize="52sp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/app_name"
+        android:textColor="@color/text_title"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.08"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/app_tagline"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        android:gravity="center" />
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/colorAccent" />
+
+</LinearLayout>
